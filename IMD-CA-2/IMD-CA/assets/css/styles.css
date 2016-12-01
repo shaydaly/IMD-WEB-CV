@@ -46,6 +46,10 @@ p {
   background-color: #2b2b2b
 }
 
+.navbar-tabs:active{
+  text-decoration: underline;
+}
+
 .fa-linkedin, .fa-github, .fa-twitter, .fa-envelope, .fa-phone {
   width: 20px;
   height: 25px;
@@ -53,6 +57,7 @@ p {
   color: #ffffff;
   padding: 3px 3px 3px 3px;
 }
+
 
 .img-circle{
   width:80%;
@@ -241,6 +246,28 @@ p {
   font-weight: 400;
   margin-top: 0;
   margin-bottom: 5px;
+}
+
+.navbar-tabs > li > a:hover {
+  background-color: transparent;
+  border: none;
+}
+.navbar-tabs> li > a {
+  background-color: transparent;
+  border: none;
+}
+.navbar-tabs {
+  border: none;
+}
+.navbar-tabs > li.active > a,
+.navbar-tabs > li.active > a:hover,
+.navbar-tabs > li.active > a:focus {
+  /*color: white;*/
+  background-color: transparent;
+  /*border: none;*/
+  /*padding-bottom: 6px;*/
+  border-bottom: 1px solid white;
+  font-weight:bold;
 }
 /*.main-wrapper .projects-section .intro {*/
   /*margin-bottom: 30px;*/
