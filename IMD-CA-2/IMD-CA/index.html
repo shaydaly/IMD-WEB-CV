@@ -51,7 +51,7 @@
             <div class="education-container container-block">
                 <div class="item">
                     <h4 class="degree">BSc(Hons) in Computing</h4>
-                    <h5 class="meta">Institute of Technology, Dublin</h5>
+                    <h5 class="meta"><a href="http://www.it-tallaght.ie/">Institute of Technology, Dublin</a></h5>
                     <div class="time">2013 - present</div>
                 </div><!--//item-->
             </div><!--//education-container-->
@@ -137,20 +137,27 @@
             <div id="PROJECTS" class="tab-pane fade">
             <section class="section projects-section">
                 <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
-                <button type="button" class="btn btn-info active" data-toggle="collapse" data-target="#year4Project">Year 4 Project</button>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#year4Project">Year 4 Project</button>
                 <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#year3Project">Year 3 Project</button>
                 <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#year2Project">Year 2 Project</button>
+                <div>
                 <div id ="year4Project">
+                    <h3>CARVIS Android Application</h3>
                 <div class="intro">
                     <p>For my final year project I am developing a Car safety application for mobile devices. The
                     project will be an android application keeping track of a users speed and notifying them if the go
                     over the known speed limit of the road they are travelling. Other features include notification of upcoming
                     speed cameras amongst other</p>
+                    <p>Some of the technolgies present in the project are Android, Java, Python, AWS Lambda, AWS RDS, AWS SQS</p>
+                    <p>I am undertaking this project in conjunction with Amazon's AWS. This involves bimonthly visits to Amazons offices in
+                    Dublin with discussions with members of the AWS team. I will be incorporating AWS products into the project as much as possible </p>
                 </div><!--//intro-->
+
 
                     </div>
 
                 <div id ="year3Project">
+                    <h3>Automated Testing</h3>
                     <div class="intro">
                         <p>During my work placement I had to develop a mini project within the company I was working. The project I implemented
                         was an automated testing project. The project introduced automated tests to the team and used various different technologies such
@@ -158,6 +165,21 @@
                     </div><!--//intro-->
 
                 </div>
+
+                <div id="year2Project">
+                    <div>
+                    <img class="project-image" src="assets/images/GamesiteLogo.png">
+                        <h3>GamesDirect</h3>
+                    </div>
+                    <div class="intro">
+                        <p>For the second year project I took part in a group project to develop an MVC application. We devloped an interactive
+                        web site for purchasing video games. Features present in the application included, administrative access, account authorisation,
+                        session logging, persistent database. </p>
+                        <p>The project was built using the Play framework and the technolgies invloved included Java, Scala, SQL, HTML, CSS, JavaScript.</p>
+                    </div><!--//intro-->
+
+                </div>
+                    </div>
             </section><!--//section-->
             </div>
 
@@ -165,12 +187,10 @@
             <div id="RESULTS" class="tab-pane fade">
                 <h2 class="section-title"><i class="fa fa-percent"></i>Results</h2>
             <section>
-                <h3 data-toggle="collapse" data-target="#y3Results">Year 3</h3>
+                <div id="accordion" role="tablist" aria-multiselectable="true">
+                <h3><a data-toggle="collapse" data-parent="#accordion" href="#y3Results" aria-expanded="true" aria-controls="y3Results">Year 3</a></h3>
 
-
-                <!--<h4>GPA: 3.92 / 4.00</h4>-->
-                <!--<h4>GPA: 3.88 / 4.00</h4>-->
-                <div id="y3Results">
+                <div id="y3Results" class="collapse in" role="tabpanel">
                     <h4>GPA: 3.57 / 4.00</h4>
                 <table class="table">
                     <thead>
@@ -211,9 +231,13 @@
                     </tbody>
                 </table>
                 </div>
-                <h3 data-toggle="collapse" data-target="#y2Results">Year 2</h3>
 
-                <div id="y2Results">
+                <h3>
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#y2Results" aria-expanded="false" aria-controls="y2Results">Year 2
+                    </a>
+                </h3>
+
+                <div id="y2Results" class="collapse" role="tabpanel">
                     <h4>GPA: 3.92 / 4.00</h4>
                     <table class="table">
                         <thead>
@@ -270,8 +294,11 @@
                         </tbody>
                     </table>
                 </div>
-                <h3 data-toggle="collapse" data-target="#y1Results">Year 1</h3>
-                <div id="y1Results">
+                <h3>
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#y1Results" aria-expanded="false" aria-controls="y1Results">Year 1
+                    </a>
+                </h3>
+                <div id="y1Results" class="collapse" role="tabpanel">
                     <h4>GPA: 3.88 / 4.00</h4>
                     <table class="table">
                         <thead>
@@ -332,62 +359,9 @@
                         </tbody>
                     </table>
                 </div>
+                    </div>
             </section>
                 </div>
-            <!--<section class="skills-section section">-->
-                <!--<h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>-->
-                <!--<div class="skillset">        -->
-                    <!--<div class="item">-->
-                        <!--<h3 class="level-title">Python &amp; Django</h3>-->
-                        <!--<div class="level-bar">-->
-                            <!--<div class="level-bar-inner" data-level="98%">-->
-                            <!--</div>                                      -->
-                        <!--</div>&lt;!&ndash;//level-bar&ndash;&gt;                                 -->
-                    <!--</div>&lt;!&ndash;//item&ndash;&gt;-->
-                    <!-- -->
-                    <!--<div class="item">-->
-                        <!--<h3 class="level-title">Javascript &amp; jQuery</h3>-->
-                        <!--<div class="level-bar">-->
-                            <!--<div class="level-bar-inner" data-level="98%">-->
-                            <!--</div>                                      -->
-                        <!--</div>&lt;!&ndash;//level-bar&ndash;&gt;                                 -->
-                    <!--</div>&lt;!&ndash;//item&ndash;&gt;-->
-                    <!-- -->
-                    <!--<div class="item">-->
-                        <!--<h3 class="level-title">Angular</h3>-->
-                        <!--<div class="level-bar">-->
-                            <!--<div class="level-bar-inner" data-level="98%">-->
-                            <!--</div>                                      -->
-                        <!--</div>&lt;!&ndash;//level-bar&ndash;&gt;                                 -->
-                    <!--</div>&lt;!&ndash;//item&ndash;&gt;-->
-                    <!-- -->
-                    <!--<div class="item">-->
-                        <!--<h3 class="level-title">HTML5 &amp; CSS</h3>-->
-                        <!--<div class="level-bar">-->
-                            <!--<div class="level-bar-inner" data-level="95%">-->
-                            <!--</div>                                      -->
-                        <!--</div>&lt;!&ndash;//level-bar&ndash;&gt;                                 -->
-                    <!--</div>&lt;!&ndash;//item&ndash;&gt;-->
-                    <!-- -->
-                    <!--<div class="item">-->
-                        <!--<h3 class="level-title">Ruby on Rails</h3>-->
-                        <!--<div class="level-bar">-->
-                            <!--<div class="level-bar-inner" data-level="85%">-->
-                            <!--</div>                                      -->
-                        <!--</div>&lt;!&ndash;//level-bar&ndash;&gt;                                 -->
-                    <!--</div>&lt;!&ndash;//item&ndash;&gt;-->
-                    <!-- -->
-                    <!--<div class="item">-->
-                        <!--<h3 class="level-title">Sketch &amp; Photoshop</h3>-->
-                        <!--<div class="level-bar">-->
-                            <!--<div class="level-bar-inner" data-level="60%">-->
-                            <!--</div>                                      -->
-                        <!--</div>&lt;!&ndash;//level-bar&ndash;&gt;                                 -->
-                    <!--</div>&lt;!&ndash;//item&ndash;&gt;-->
-                    <!-- -->
-                <!--</div>  -->
-            <!--</section>&lt;!&ndash;//skills-section&ndash;&gt;-->
-            <!-- -->
         </div><!--//main-body-->
 
         <div class="modal fade" id="ContactPopUp" role="dialog">
