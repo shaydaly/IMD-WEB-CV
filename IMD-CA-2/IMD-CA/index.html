@@ -31,18 +31,19 @@
                 <h1 class="name">Seamus Daly</h1>
                 <h3 class="tagline">Software Developer</h3>
             </div><!--//profile-container-->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="navbar" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-tabs">
                     <li class ="active navnarOption"><a data-toggle="tab" href="#ABOUT">ABOUT</a></li>
                     <li class ="navnarOption"><a data-toggle="tab" href="#PROJECTS">PROJECTS</a></li>
                     <li class ="navnarOption"><a data-toggle="tab" href="#RESULTS">RESULTS</a></li>
-                    <li class ="navnarOption"><a data-toggle="modal" data-target="#ContactPopUp">CONTACT</a></li>
                 </ul>
             </div>
-            
+            <div class="contact_button">
+                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#ContactPopUp">Contact</button>
+            </div>
             <div class="contact-container container-block">
                 <ul class="list-unstyled contact-list">
-                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto: shaydaly20@email.com">shaydaly20@gmail.com</a></li>
+                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto: shaydaly20@gmail.com">shaydaly20@gmail.com</a></li>
                     <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://ie.linkedin.com/in/seamusdaly1" target="_blank">linkedin.com/in/seamusdaly1</a></li>
                     <li class="github"><i class="fa fa-github"></i><a href="https://www.github.com/shaydaly" target="_blank">github.com/shaydaly</a></li>
                     <li class="phone"><i class="fa fa-phone"></i>0851329485</li>
@@ -50,6 +51,7 @@
             </div><!--//contact-container-->
             <div class="education-container container-block">
                 <div class="item">
+                    <h2 class="container-block-title">Education</h2>
                     <h4 class="degree">BSc(Hons) in Computing</h4>
                     <h5 class="meta"><a href="http://www.it-tallaght.ie/">Institute of Technology, Dublin</a></h5>
                     <div class="time">2013 - present</div>
@@ -86,8 +88,8 @@
                     </div><!--//meta-->
                     <div class="details">
                         <p>During my time in OpenJaw Technologies I worked on the Cathay Team, which was responsible for developing their product
-                        for Cathay Pacific, which is a Hong Kong based f
-                        provider of flights and dynamic packages</p>
+                        for Cathay Pacific, which is a Hong Kong based
+                        provider of flights and dynamic packages.</p>
                         <p>My main duties here involved developing features as part of the current sprint, working on production level incidents, and
                             QA and Testing
                         </p>
@@ -141,41 +143,42 @@
                 <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#year3Project">Year 3 Project</button>
                 <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#year2Project">Year 2 Project</button>
                 <div>
-                <div id ="year4Project">
+                <div id ="year4Project" class="collapse in">
                     <h3>CARVIS Android Application</h3>
                 <div class="intro">
-                    <p>For my final year project I am developing a Car safety application for mobile devices. The
-                    project will be an android application keeping track of a users speed and notifying them if the go
+                    <p>For my final year project I am developing a car safety application for mobile devices. The
+                    project will be an android application,which keeps track of a users speed and notifies them if the go
                     over the known speed limit of the road they are travelling. Other features include notification of upcoming
                     speed cameras amongst other</p>
-                    <p>Some of the technolgies present in the project are Android, Java, Python, AWS Lambda, AWS RDS, AWS SQS</p>
+                    <p>Some of the technologies present in the project are Android, Java, Python, AWS Lambda, AWS RDS, AWS SQS</p>
                     <p>I am undertaking this project in conjunction with Amazon's AWS. This involves bimonthly visits to Amazons offices in
-                    Dublin with discussions with members of the AWS team. I will be incorporating AWS products into the project as much as possible </p>
+                    Dublin with discussions with members of the AWS team. As such, I will be incorporating AWS products into the project as much as possible.</p>
                 </div><!--//intro-->
 
 
                     </div>
 
-                <div id ="year3Project">
+                <div id ="year3Project" class="collapse">
                     <h3>Automated Testing</h3>
                     <div class="intro">
                         <p>During my work placement I had to develop a mini project within the company I was working. The project I implemented
                         was an automated testing project. The project introduced automated tests to the team and used various different technologies such
                         as Apache Ant, Jenkins, Apache JMeter, Java, </p>
+                        <img id="automatedProject-image" class="img-thumbnail" src="assets/images/AutomatedReport.png">
                     </div><!--//intro-->
 
                 </div>
 
-                <div id="year2Project">
+                <div id="year2Project" class="collapse">
                     <div>
-                    <img class="project-image" src="assets/images/GamesiteLogo.png">
                         <h3>GamesDirect</h3>
+                        <img class="project-image" src="assets/images/GamesiteLogo.png">
                     </div>
                     <div class="intro">
                         <p>For the second year project I took part in a group project to develop an MVC application. We devloped an interactive
                         web site for purchasing video games. Features present in the application included, administrative access, account authorisation,
-                        session logging, persistent database. </p>
-                        <p>The project was built using the Play framework and the technolgies invloved included Java, Scala, SQL, HTML, CSS, JavaScript.</p>
+                        session logging and a persistent database. </p>
+                        <p>The project was built using the Play framework and the technologies involved included Java, Scala, Git, SQL, HTML, CSS and JavaScript.</p>
                     </div><!--//intro-->
 
                 </div>
