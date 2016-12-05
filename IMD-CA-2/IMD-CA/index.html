@@ -30,6 +30,9 @@
                 <img class="profile img-circle" src="assets/images/ProfilePicture.jpg" alt="" />
                 <h1 class="name">Seamus Daly</h1>
                 <h3 class="tagline">Software Developer</h3>
+                <div class="contact_button">
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#ContactPopUp">Contact</button>
+                </div>
             </div><!--//profile-container-->
             <div class="navbar" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-tabs">
@@ -37,9 +40,6 @@
                     <li class ="navnarOption"><a data-toggle="tab" href="#PROJECTS">PROJECTS</a></li>
                     <li class ="navnarOption"><a data-toggle="tab" href="#RESULTS">RESULTS</a></li>
                 </ul>
-            </div>
-            <div class="contact_button">
-                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#ContactPopUp">Contact</button>
             </div>
             <div class="contact-container container-block">
                 <ul class="list-unstyled contact-list">
@@ -53,7 +53,7 @@
                 <div class="item">
                     <h2 class="container-block-title">Education</h2>
                     <h4 class="degree">BSc(Hons) in Computing</h4>
-                    <h5 class="meta"><a href="http://www.it-tallaght.ie/">Institute of Technology, Dublin</a></h5>
+                    <h5 class="meta"><a href="http://www.it-tallaght.ie/" target="_blank">Institute of Technology, Dublin</a></h5>
                     <div class="time">2013 - present</div>
                 </div><!--//item-->
             </div><!--//education-container-->
@@ -212,7 +212,7 @@
                 <h2 class="section-title"><i class="fa fa-percent"></i>Results</h2>
             <section>
                 <div id="accordion" role="tablist" aria-multiselectable="true">
-                <h3><a data-toggle="collapse" data-parent="#accordion" href="#y3Results" aria-expanded="true" aria-controls="y3Results">Year 3</a></h3>
+                <h3><a class="resultSelect" data-toggle="collapse" data-parent="#accordion" href="#y3Results" aria-expanded="true" aria-controls="y3Results">Year 3</a></h3>
 
                 <div id="y3Results" class="collapse in" role="tabpanel">
                     <h4>GPA: 3.57 / 4.00</h4>
@@ -256,7 +256,7 @@
                 </table>
                 </div>
                 <h3>
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#y2Results" aria-expanded="false" aria-controls="y2Results">Year 2
+                    <a class="collapsed resultSelect" data-toggle="collapse" data-parent="#accordion" href="#y2Results" aria-expanded="false" aria-controls="y2Results">Year 2
                     </a>
                 </h3>
 
@@ -318,7 +318,7 @@
                     </table>
                 </div>
                 <h3>
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#y1Results" aria-expanded="false" aria-controls="y1Results">Year 1
+                    <a class="collapsed resultSelect" data-toggle="collapse" data-parent="#accordion" href="#y1Results" aria-expanded="false" aria-controls="y1Results">Year 1
                     </a>
                 </h3>
                 <div id="y1Results" class="collapse" role="tabpanel">

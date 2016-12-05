@@ -170,6 +170,13 @@ p {
 
 }
 
+.sidebar-wrapper a:hover{
+  text-decoration: none;
+}
+.resultSelect:hover{
+  text-decoration: none;
+}
+
 .main-wrapper .section-title .fa {
   width: 30px;
   height: 30px;
@@ -345,7 +352,8 @@ p {
 }
 
 .contact_button{
-  margin-left: 50px;
+  padding-top:15px;
+  margin: 0 auto;
 }
 
 #year2Project,#year3Project,#year4Project{
@@ -397,8 +405,13 @@ p {
   background: #7bc2d3;
 }
 
+
 /* Extra small devices (phones, less than 768px) */
-@media (max-width: 767px) {
+@media (max-width: 420px) {
+
+  body{
+    padding: 0 0 0 0;
+  }
   .sidebar-wrapper {
     position: static;
     width: inherit;
