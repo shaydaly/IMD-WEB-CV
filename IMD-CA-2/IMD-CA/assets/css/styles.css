@@ -336,9 +336,11 @@ p {
 }
 
 .gamesiteImage{
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
+  height:100px;
+}
+
+.gamesiteImages{
+  padding-top:30px;
 }
 
 .btn-default{
