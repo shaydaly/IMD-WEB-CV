@@ -40,9 +40,9 @@ p {
   background-color: #2b2b2b
 }
 .mediaLinks{
-  width:150px;
+  width:190px;
   margin: 0 auto;
-  /*position:relative;*/
+  position:relative;
   /*padding:15px;*/
 }
 
@@ -159,7 +159,7 @@ p {
 
 .main-wrapper {
   right:0;
-  background: #f2f2f2;
+  background: white;
   padding: 60px;
   padding-left: 300px;
   height:100%;
@@ -224,14 +224,16 @@ p {
   font-weight: 500;
 }
 .main-wrapper .time {
-  position: absolute;
+  position: relative;
   right: 0;
   top: 0;
-  color: #97AAC3;
+  color: #5bc0de;
 }
 .main-wrapper .company {
+  padding-top:10px;
   margin-bottom: 10px;
-  color: #97AAC3;
+  color: rgb(118, 127, 123);
+  font-weight:bold;
 }
 .main-wrapper .project-title {
   font-size: 16px;
@@ -389,7 +391,7 @@ p {
   background-color: transparent;
   /*border: none;*/
   /*padding-bottom: 6px;*/
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #5bc0de;
   font-weight:bold;
 }
 

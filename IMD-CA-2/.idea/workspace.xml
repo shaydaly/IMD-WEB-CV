@@ -21,21 +21,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IMD-CA/assets/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56545454">
-              <caret line="44" column="2" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="22" />
+            <state vertical-scroll-proportion="-41.350876">
+              <caret line="393" column="16" selection-start-line="393" selection-start-column="16" selection-end-line="393" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/IMD-CA/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.953125">
-              <caret line="52" column="14" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.2744015">
+              <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -58,8 +58,8 @@
         <option value="$PROJECT_DIR$/TestSkills" />
         <option value="$PROJECT_DIR$/IMD-CA/assets/js/main.js" />
         <option value="$PROJECT_DIR$/IMD-CA/assets/js/myJS.js" />
-        <option value="$PROJECT_DIR$/IMD-CA/index.html" />
         <option value="$PROJECT_DIR$/IMD-CA/assets/css/styles.css" />
+        <option value="$PROJECT_DIR$/IMD-CA/index.html" />
       </list>
     </option>
   </component>
@@ -441,18 +441,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IMD-CA/index.html">
+    <entry file="file://$PROJECT_DIR$/IMD-CA/assets/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.953125">
-          <caret line="52" column="14" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+        <state vertical-scroll-proportion="-41.350876">
+          <caret line="393" column="16" selection-start-line="393" selection-start-column="16" selection-end-line="393" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IMD-CA/assets/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/IMD-CA/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56545454">
-          <caret line="44" column="2" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.2744015">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
           <folding />
         </state>
       </provider>

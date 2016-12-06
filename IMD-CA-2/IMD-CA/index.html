@@ -27,7 +27,7 @@
 <div class="wrapper">
     <div class="sidebar-wrapper">
         <div class="profile-container">
-            <img class="profile img-circle" src="assets/images/ProfilePicture.jpg" alt="" />
+            <img id ="profile_picture" class="profile img-circle" src="assets/images/ProfilePicture.jpg" alt="Seamus Daly" onmousedown="displayImagePopUp('profile_picture')" />
             <h1 class="name">Seamus Daly</h1>
             <h3 class="tagline">Software Developer</h3>
             <div class="contact_button">
@@ -85,9 +85,9 @@
                         <div class="meta">
                             <div class="upper-row">
                                 <h3 class="job-title">Technical Intern</h3>
-                                <div class="time">February 2016 - August 2016</div>
+                                <div class="company">OpenJaw Technologies</div>
                             </div><!--//upper-row-->
-                            <div class="company">OpenJaw Technologies</div>
+                            <div class="time">February 2016 - August 2016</div>
                         </div><!--//meta-->
                         <div class="details">
                             <p>During my time in OpenJaw Technologies I worked on the Cathay Team, which was responsible for developing their product
@@ -103,9 +103,9 @@
                         <div class="meta">
                             <div class="upper-row">
                                 <h3 class="job-title">Operation staff</h3>
-                                <div class="time">2008 - present</div>
+                                <div class="company">Boots Ireland</div>
                             </div><!--//upper-row-->
-                            <div class="company">Boots Ireland</div>
+                            <div class="time">2008 - present</div>
                         </div><!--//meta-->
                         <div class="details">
                             <p>My main duties in Boots involved dealing with members of the public, stock ordering, devising staff rosters, medication delivery, amongst others</p>
@@ -435,7 +435,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                        <h3 id="myModalLabel">We'd Love to Hear From You</h3>
+                        <h3 id="myModalLabel">Contact me</h3>
                     </div>
                     <div class="modal-body">
                         <form class="form-horizontal col-sm-12">
