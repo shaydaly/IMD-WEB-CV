@@ -52,3 +52,26 @@
                 <!--</div>  -->
             <!--</section>&lt;!&ndash;//skills-section&ndash;&gt;-->
             <!-- -->
+
+
+
+
+                                <!--<nav class="navbar navbar-inverse">-->
+                                    <!--<div class="container-fluid">-->
+                                        <!--<div class="navbar-header">-->
+                                            <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">-->
+                                                <!--<span class="icon-bar"></span>-->
+                                                <!--<span class="icon-bar"></span>-->
+                                                <!--<span class="icon-bar"></span>-->
+                                            <!--</button>-->
+                                        <!--</div>-->
+                                        <!--<div id="myNavbar" class="collapse navbar-collapse" >-->
+                                            <!--<ul class="nav navbar-nav">-->
+                                                <!--<li class="active"><a data-toggle="tab" href="#year4Project">Year 4 Project</a></li>-->
+                                                <!--<li><a data-toggle="tab" href="#year3Project">Year 3 Project</a></li>-->
+                                                <!--<li><a data-toggle="tab" href="#year2Project">Year 2 Project</a></li>-->
+                                            <!--</ul>-->
+
+                                        <!--</div>-->
+                                    <!--</div>-->
+                                <!--</nav>-->
