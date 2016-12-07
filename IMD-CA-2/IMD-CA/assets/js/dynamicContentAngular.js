@@ -183,11 +183,11 @@ skills.controller("skillsController",
         $scope.skills = {
             skills: [
                 {
-                    skill: "SQL",
+                    skill: "Java",
                     ability: "100%"
                 },
                 {
-                    skill: "Java",
+                    skill: "SQL",
                     ability: "100%"
                 },
                 {
