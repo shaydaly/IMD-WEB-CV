@@ -25,6 +25,7 @@
     }
 }
 
+
 /* form validation plugin */
 $.fn.goValidate = function() {
     var $form = this,
@@ -39,9 +40,6 @@ $.fn.goValidate = function() {
         },
         email: {
             regex: /^[\w\-\.\+]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z0-9]{2,4}$/
-        },
-        phone: {
-            regex: /^[2-9]\d{2}-\d{3}-\d{4}$/,
         }
     };
     var validate = function(klass, value) {
