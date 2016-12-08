@@ -4,6 +4,7 @@
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
     <title>Seamus Daly</title>
+    <!--The page is hosted on github pages at https://shaydaly.github.io/IMD-WEB-CV/IMD-CA-2/IMD-CA/-->
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -53,42 +54,30 @@
                 <a class="fa fa-skype" href="skype:Seamus Daly?call"></a>
             </div>
         </div>
-        <!--</div>&lt;!&ndash;//contact-container&ndash;&gt;-->
-        <!--<div class="education-container container-block">-->
-            <!--<div class="item">-->
-                <!--<h2 class="container-block-title">Education</h2>-->
-                <!--<h4 class="degree">BSc(Hons) in Computing</h4>-->
-                <!--<h5 class="meta"><a href="http://www.it-tallaght.ie/" target="_blank">Institute of Technology, Dublin</a></h5>-->
-                <!--<div class="time">2013 - present</div>-->
-            <!--</div>&lt;!&ndash;//item&ndash;&gt;-->
-        <!--</div>&lt;!&ndash;//education-container&ndash;&gt;-->
     </div><!--//sidebar-wrapper-->
 
     <div class="main-wrapper">
         <div class="tab-content">
-
-            <!--<div class="alert alert-success alert-dismissible" id="alertBox">-->
-                <!--<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>-->
-                <!--<strong>Success!</strong>The message has been sent, I will get back to you as soon as possible-->
-            <!--</div>-->
             <div id="ABOUT" class="tab-pane fade in active">
                 <section class="section summary-section">
                     <h2 class="section-title"><i class="fa fa-user"></i>About</h2>
                     <div class="summary">
-                        <p>I am currently a full time student in the Institute of Technology, Tallaght.
-                            I am studying for an honours degree in Computing, and I am due to graduate in May 2017.
-                            I have a great interest in the development of new technologies and this is one of the main reasons I chose to pursue a
+                        <p>I am currently a full time student in the Institute of Technology, Tallaght, where
+                            I am studying for an honours degree in Computing. I am due to graduate in May 2017, and will be entering a career
+                            in software development.
+                            I have always had a great interest in technology, and the development of new technologies, and this is one of the main reasons I have chosen to pursue a
                             career in Software Development.
 
                         </p>
                     </div><!--//summary-->
                 </section>
+                <div class="EducationContainer">
                 <section class="section summary-section">
                     <h2 class="section-title"><i class="fa fa-graduation-cap"></i>Education</h2>
                     <div class="summary">
                         <div id="collegeE">
-                            <a href="http://www.it-tallaght.ie/" target="_blank"><img src="assets/images/itt.jpg" class="schoolImage"></a>
-                        <h4 class="meta">Institute of Technology, Dublin</h4>
+                            <a href="http://www.it-tallaght.ie/" target="_blank"><img src="assets/images/itt.jpg" class="collegeImage"></a>
+                        <h4 class="meta">Institute of Technology, Tallaght</h4>
                         <div class="educationTime">September 2013 - present</div>
 
                         </div>
@@ -99,7 +88,8 @@
                         <div class="educationTime">2004 - 2010</div>
                         </div>
                     </div><!--//summary-->
-                </section><!--//section-->
+                </section>
+                </div><!--//section-->
             </div>
             <div id="WorkExperience" class="tab-pane fade">
                 <section class="section experiences-section">
@@ -124,6 +114,7 @@
 
                         </div><!--//details-->
                     </div><!--//item-->
+                    <div id="BootsItem">
                     <div class="item">
                         <div class="meta">
                             <div class="upper-row">
@@ -134,9 +125,10 @@
                         </div><!--//meta-->
                         <div class="details">
                             <p><a href="http://www.boots.com/" target="_blank"><img class="workImage"src="assets/images/Boots.png" ></a>
-                                I have worked in Boots for the last 8 years, both on a full time and part-time basis. My main duties in Boots involve dealing with members of the public, stock ordering, devising staff rosters, medication delivery, amongst others</p>
+                                I have worked in Boots for the last 8 years, both on a full time and part-time basis. My main duties in Boots involve dealing with members of the public, stock ordering, devising staff rosters, medication delivery, amongst others.</p>
 
                         </div><!--//details-->
+                    </div>
                     </div><!--//item-->
                 </section>
             </div>
@@ -198,17 +190,6 @@
                                 <li class="navnarProject navbarText col-md-4"><a data-toggle="tab" href="#year2Project">Year 2 Project</a></li>
                             </ul>
                         </div><!-- /.navbar-collapse -->
-            <!-- /.container-fluid -->
-                        <!--<div class="container">-->
-                        <!--<ul class="nav navbar-nav">-->
-                            <!--<li class="active navnarProject navbarText"><a data-toggle="tab" href="#year4Project">Year 4 Project</a></li>-->
-                            <!--<li class="navnarProject navbarText"><a data-toggle="tab" href="#year3Project">Year 3 Project</a></li>-->
-                            <!--<li class="navnarProject navbarText"><a data-toggle="tab" href="#year2Project">Year 2 Project</a></li>-->
-                        <!--</ul>-->
-                        <!--</div>-->
-                    <!--<button type="button" class="btn btn-info navbar-btn col-xs-4" data-toggle="tab" href="#year4Project">Year 4 Project</button>-->
-                    <!--<button type="button" class="btn btn-info navbar-btn col-xs-4" data-toggle="tab" href="#year3Project">Year 3 Project</button>-->
-                    <!--<button type="button" class="btn btn-info navbar-btn col-xs-4" data-toggle="tab" href="#year2Project">Year 2 Project</button>-->
                         </nav>
                     <div class="tab-content">
                         <div id ="year4Project" class="tab-pane fade in active">
@@ -219,8 +200,9 @@
                                     over the known speed limit of the road they are travelling. Other features include notification of upcoming
                                     speed cameras, speed safety scores, amongst others</p>
                                 <p>Some of the technologies present in the project are Android, Java, Python, AWS Lambda, AWS RDS, AWS SQS</p>
-                                <p>I am undertaking this project in conjunction with Amazon's AWS. This involves bimonthly visits to Amazons offices in
+                                <p>I am undertaking this project in conjunction with Amazon's AWS. This involves bimonthly visits to Amazon's offices in
                                     Dublin with discussions with members of the AWS team. As such, I will be incorporating AWS products into the project as much as possible.</p>
+                                <a href="https://aws.amazon.com/" target="_blank"><img id="aws-image" class="img-thumbnail" src="assets/images/aws.png" alt="AWS logo"></a>
                             </div><!--//intro-->
                         </div>
                         <div id ="year3Project" class="tab-pane fade">
@@ -232,16 +214,16 @@
                             </div><!--//intro-->
                             <div class="row">
                                 <div class="col-xs-12">
-                                    <img id="automatedProject-image" class="img-thumbnail" src="assets/images/AutomatedReport.png" alt="Test Output Report" onmousedown="displayImagePopUp('automatedProject-image')">
+                                    <img id="automatedProject-image" class="img-thumbnail" src="assets/images/AutomatedReport.png" alt="Test Output Report" title="Click to pop up" onmousedown="displayImagePopUp('automatedProject-image')">
                                 </div>
                             </div>
                         </div>
                         <div id="year2Project" class="tab-pane fade">
                                 <h4 class="project-title">GamesDirect</h4>
                             <div class="intro">
-                                <p>For the second year project I took part in a group project to develop an MVC application. We devloped an interactive
-                                    web site for purchasing video games. Features present in the application included, administrative access, account authorisation,
-                                    session logging and a persistent database. </p>
+                                <p>For the second year project I took part in a group project to develop an MVC application. We developed an interactive
+                                    web site for purchasing video games. Features present in the application included a persistent database, administrative access, account authorisation,
+                                    session logging using cookies, amongst others. </p>
                                 <p>The project was built using the Play framework and the technologies involved included Java, Scala, Git, SQL, HTML, CSS and JavaScript.</p>
                                 <!--<div class="row gamesiteImages">-->
                                     <!--<div class="col-xs-3">-->
