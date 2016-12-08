@@ -74,7 +74,7 @@ var education = angular.module("education", []);
                     },
                     {
                         id: 6,
-                        subject: "Web Design 1",
+                        subject: "Web Design & Development 2",
                         grade: "B+"
                     },
                     {
@@ -89,23 +89,23 @@ var education = angular.module("education", []);
                     },
                     {
                         id: 9,
-                        subject: "Networking 1",
+                        subject: "Software Quality & Assurance",
                         grade: "A"
                     },
                     {
                         id: 10,
-                        subject: "Networking 2",
+                        subject: "Networking 1",
                         grade: "A"
                     },
                     {
                         id: 11,
-                        subject: "Software Quality",
+                        subject: "Networking 2",
                         grade: "A"
                     },
                     {
                         id: 12,
                         subject: "Software Development 3",
-                        grade: "A"
+                        grade: "B+"
                     }
                 ],
                 firstYear: [

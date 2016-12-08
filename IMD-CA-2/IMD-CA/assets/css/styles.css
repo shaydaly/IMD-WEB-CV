@@ -16,6 +16,14 @@ h5,
 h6 {
   font-weight: 700;
 }
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #5bc0de;
+}
+
+.fa-arrows-v{
+  color:white;
+}
 .gpaTitle{
   color: #626262;
 }
@@ -204,6 +212,11 @@ p {
  }
 .navbar-inverse .navbar-nav>li>a {
    color: white;
+}
+
+.navbar-inverse{
+  background-color:#2b2b2b;
+  border:none;
 }
 
 .main-wrapper {
@@ -460,11 +473,20 @@ p {
   border-bottom: 1px solid #5bc0de;
   font-weight:bold;
 }
+/*.navnarProject{*/
+  /*width:33%;*/
+/*}*/
 
+.navbar-left{
+  width:100%;
+}
+.navbarText{
+  text-align:center;
+}
 .navbar-nav > li.active > a,
 .navbar-nav > li.active > a:hover,
 .navbar-nav > li.active > a:focus {
-  background-color: transparent;
+  background-color: transparent !important; ;
   /*border: none;*/
   /*padding-bottom: 6px;*/
   border-bottom: 4px solid #5bc0de;
@@ -522,6 +544,10 @@ p {
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 540px) {
 
+
+  .modal-dialog{
+    width:100%;
+  }
   body{
     padding: 0 0 0 0;
   }
@@ -560,6 +586,7 @@ p {
     margin-right: 10px;
 
   }
+
 }
 
 

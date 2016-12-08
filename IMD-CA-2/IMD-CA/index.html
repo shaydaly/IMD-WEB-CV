@@ -37,11 +37,11 @@
         </div><!--//profile-container-->
         <div class="navbar">
             <ul class="nav navbar-tabs">
-                <li class ="active navnarOption navbarText"><a data-toggle="tab" href="#ABOUT">ABOUT</a></li>
-                <li class ="navnarOption navbarText"><a data-toggle="tab" href="#WorkExperience">EXPERIENCE</a></li>
-                <li class ="navnarOption navbarText"><a data-toggle="tab" href="#Skills">SKILLS</a></li>
-                <li class ="navnarOption navbarText"><a data-toggle="tab" href="#PROJECTS">PROJECTS</a></li>
-                <li class ="navnarOption navbarText"><a data-toggle="tab" href="#RESULTS">RESULTS</a></li>
+                <li class ="active navnarOption"><a data-toggle="tab" href="#ABOUT">ABOUT</a></li>
+                <li class ="navnarOption"><a data-toggle="tab" href="#WorkExperience">EXPERIENCE</a></li>
+                <li class ="navnarOption"><a data-toggle="tab" href="#Skills">SKILLS</a></li>
+                <li class ="navnarOption"><a data-toggle="tab" href="#PROJECTS">PROJECTS</a></li>
+                <li class ="navnarOption"><a data-toggle="tab" href="#RESULTS">RESULTS</a></li>
             </ul>
         </div>
         <!--<div class="contact-container container-block">-->
@@ -175,10 +175,7 @@
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" id="dropdown" >
                                 <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-
+                                <span class="fa fa-arrows-v"></span>
                             </button>
                         </div>
 
@@ -291,7 +288,6 @@
                 <section>
                     <div id="accordion" role="tablist" aria-multiselectable="true">
                         <h3><a class="resultSelect" data-toggle="collapse" data-parent="#accordion" href="#y3Results" aria-expanded="true" aria-controls="y3Results">Year 3</a></h3>
-
                         <div id="y3Results" class="collapse in" role="tabpanel">
                             <h5 class="gpaTitle">GPA: 3.57 / 4.00</h5>
                             <table class="table">
@@ -302,18 +298,14 @@
                                 </tr>
                                 </thead>
                                 <tbody >
-                                <tr ng-repeat="ty in education.thirdYear">
+                                <tr ng-repeat="ty in education.thirdYear | orderBy : 'grade'">
                                     <td>{{ty.subject}}</td>
                                     <td>{{ty.grade}}</td>
                                 </tr>
                                 </tbody>
                             </table>
                         </div>
-                        <h3>
-                            <a class="collapsed resultSelect" data-toggle="collapse" data-parent="#accordion" href="#y2Results" aria-expanded="false" aria-controls="y2Results">Year 2
-                            </a>
-                        </h3>
-
+                        <h3><a class="resultSelect" data-toggle="collapse" data-parent="#accordion" href="#y2Results" aria-expanded="true" aria-controls="y2Results">Year 2</a></h3>
                         <div id="y2Results" class="collapse" role="tabpanel">
                             <h5 class="gpaTitle">GPA: 3.92 / 4.00</h5>
                             <table class="table">
@@ -324,7 +316,7 @@
                                 </tr>
                                 </thead>
                                 <tbody >
-                                <tr ng-repeat="ty in education.secondYear">
+                                <tr ng-repeat="ty in education.secondYear | orderBy : 'grade'">
                                     <td>{{ty.subject}}</td>
                                     <td>{{ty.grade}}</td>
                                 </tr>
@@ -345,7 +337,7 @@
                                 </tr>
                                 </thead>
                                 <tbody >
-                                <tr ng-repeat="ty in education.firstYear">
+                                <tr ng-repeat="ty in education.firstYear | orderBy : 'grade'">
                                     <td>{{ty.subject}}</td>
                                     <td>{{ty.grade}}</td>
                                 </tr>
