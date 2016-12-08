@@ -26,13 +26,14 @@
         <div class="profile-container">
             <img id ="profile_picture" class="profile img-circle" src="assets/images/ProfilePicture.jpg" alt="Seamus Daly" onmousedown="displayImagePopUp('profile_picture')" />
             <h1 class="name">Seamus Daly</h1>
-            <h4 class="tagline">Software Developer</h4>
-            <a data-toggle="modal" data-target="#mapModal"><img src="assets/images/location.png" style="width:20px;height:20px;"></a>
+            <h4 class="tagline">Software Developer<a data-toggle="modal" data-target="#mapModal"><img src="assets/images/location.png" id="locationImage"></a></h4>
+
             <div class="contact_button">
                 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#ContactPopUp">Contact</button>
             </div>
 
         </div><!--//profile-container-->
+
         <div class="navbar">
             <ul class="nav navbar-tabs">
                 <li class ="active navbarOption"><a data-toggle="tab" href="#ABOUT">ABOUT</a></li>
@@ -405,13 +406,12 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Modal Header</h4>
+                <h4 class="modal-title">Location</h4>
             </div>
 
                 <div class="container">
                     <div id="map" class="map"></div>
                 </div>
-
         </div>
 
     </div>
@@ -429,11 +429,9 @@
 <script type="text/javascript" src="assets/js/main.js"></script>
 
 
-<!-------- MAP SCRIPT ------------------------------>
-
 <script>
     function initMap() {
-        var uluru = {lat: 53.351273, lng: -6.380193};
+        var uluru = {lat: 53.3513040, lng: -6.3805650};
         var map = new google.maps.Map(document.getElementById('map'), {
             zoom: 16,
             center: uluru
@@ -447,7 +445,7 @@
 
 
 <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAhhhxC8tQeyPGKj-5pfPtyBreLYUYtI3E&callback=initMap"></script>
-<!-------- MAP SCRIPT END ------------------------------>
+
 
 
 </body>
