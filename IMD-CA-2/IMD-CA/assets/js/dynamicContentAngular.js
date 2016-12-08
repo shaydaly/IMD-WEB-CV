@@ -184,44 +184,54 @@ skills.controller("skillsController",
             skills: [
                 {
                     skill: "Java",
-                    ability: "100%"
+                    ability: "100%",
+                    img: "assets/images/java.png"
                 },
                 {
                     skill: "SQL",
-                    ability: "100%"
+                    ability: "100%",
+                    img: "assets/images/sql.png"
                 },
                 {
                     skill: "Linux",
-                    ability: "100%"
+                    ability: "100%",
+                    img: "assets/images/linux.jpg"
                 },
                 {
                     skill: "C#",
-                    ability: "95%"
+                    ability: "95%",
+                    img: "assets/images/C#.png"
                 },
                 {
                     skill: "C++",
-                    ability: "90%"
+                    ability: "90%",
+                    img: "assets/images/C++.png"
                 },
                 {
                     skill: "Git",
-                    ability: "90%"
+                    ability: "90%",
+                    img: "assets/images/git.png"
                 },
                 {
                     skill: "HTML",
-                    ability: "85%"
+                    ability: "85%",
+                    img: "assets/images/html.png"
                 },
                 {
                     skill: "CSS",
-                    ability: "80%"
+                    ability: "80%",
+                    img: "assets/images/css.jpg"
                 },
 
                 {
                     skill: "JavaScript",
-                    ability: "80%"
+                    ability: "80%",
+                    img: "assets/images/Javascript.png"
                 },
                 {
                     skill: "Asp.net",
-                    ability: "70%"
+                    ability: "70%",
+                    img: "assets/images/asp.png"
                 }
             ]
         }

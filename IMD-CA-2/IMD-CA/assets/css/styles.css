@@ -16,6 +16,28 @@ h5,
 h6 {
   font-weight: 700;
 }
+#locationImage{
+  height:30px;
+  width:20px;
+  padding-right:7px;
+}
+
+.map{
+  height:300px;
+  width: 300px;
+  background:rgb(34,34,34);
+}
+
+#RESULTS{
+  text-align:left !important;
+}
+
+.skillImage{
+  float:left;
+  width:40px;
+  height:30px;
+  padding-bottom: 5px;
+}
 
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color: #5bc0de;
@@ -146,7 +168,9 @@ p {
   margin-top: 0;
   margin-bottom: 15px;
 }
-
+#year2Image{
+  padding-top:30px;
+}
 #footer{
   text:19px;
   height:19px;
@@ -177,6 +201,10 @@ p {
 }
 
 .GameCarousel{
+  padding-top:50px;
+}
+
+.Y3Carousel{
   padding-top:50px;
 }
 
@@ -212,7 +240,7 @@ p {
   font-weight:bold;
   font-size: 15px;
 }
-.navnarOption{
+.navbarOption{
   width:100%;
   text-align:left;
   font-weight:bold;
@@ -353,10 +381,18 @@ p {
 #secondarySchool{
   padding-top:100px;
 }
-#collegeE{
-  padding-top:20px;
-}
+
 .imageContentModal{
+  margin: auto;
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  min-height:400px;
+  max-height:400px;
+}
+
+
+.mapModal{
   margin: auto;
   display: block;
   width: 100%;
