@@ -568,22 +568,29 @@ p {
   }
 
   .mediaLinks{
-    width:200px;
+    width:70%;
+    min-width:320px;
     margin: 0 auto;
     position:relative;
     /*padding:15px;*/
   }
 
+  .mediaBox{
+    overflow:hidden;
+    margin: 0 auto;
+  }
+
   .fa-linkedin, .fa-github, .fa-twitter, .fa-envelope, .fa-phone, .fa-skype {
-    width: 25px;
-    height: 25px;
+    width: 50px;
+    height: 50px;
     text-align: center;
     color: #5bc0de;
     border: solid 1px #5bc0de;
     border-radius: 35px;
-    padding: 5px 5px 5px 5px;
+    padding: 10px 5px 5px 5px;
     transition: all 0.5s ease 0s;
     margin-right: 10px;
+    font-size: 30px;
 
   }
 
